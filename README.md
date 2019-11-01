@@ -7,7 +7,7 @@ This project is the result of hard teamwork during a week, developed within Skyl
 Special thanks to my colleagues mentioned at credits in bottom.
 
 
-![Preview web image](eat-the-world.png)
+![Preview web image](./eat-the-world-doc/eat-the-world.png)
 
 ## Introduction
 
@@ -29,33 +29,33 @@ Has been managed with Git and Github branches.
 
 ### Use Cases
 
-![Alt text](usercases1.jpg)
+![Alt text](./eat-the-world-doc/usercases1.jpg)
 
 ### Flow Diagram
 
-![Alt text](FLOW.jpg)
+![Alt text](./eat-the-world-doc/FLOW.jpg)
 
 ## Technical Description
 
 ### Block Diagram
 
-![Alt text](Blocks.jpg)
+![Alt text](./eat-the-world-doc/Blocks.jpg)
 
 ## Components
 
-![Alt text](components.jpg)
+![Alt text](./eat-the-world-doc/components.jpg)
 
 ### Components-React
 
-![Alt text](react-compos.jpg)
+![Alt text](./eat-the-world-doc/react-compos.jpg)
 
 ### Flow Components-React
 
-![Alt text](Flow-compos.jpg)
+![Alt text](./eat-the-world-doc/Flow-compos.jpg)
 
 ## Testing
 
-![Alt text](test-jasmine.png)
+![Alt text](./eat-the-world-doc/test-jasmine.png)
 
 ## Credits
 
