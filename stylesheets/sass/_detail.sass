@@ -1,0 +1,153 @@
+.detail
+  align-items: center
+  background-color: #e5e3dd
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+  &__main-container
+    border-radius: 10px
+    margin-top: 4%
+    background-color: whitesmoke
+    margin-bottom: 4%
+    max-width: 98%
+    font-size: .7rem
+    position: relative
+    box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.685)
+
+  &__header-container
+    position: relative
+
+  &__favorite
+    position: absolute
+    color: #bb3c3c
+    font-size: 2rem
+    right: .5rem
+    top: .6rem
+    cursor: pointer
+    z-index: 1
+
+  &__title
+    text-align: center
+    font-size: 1.5rem
+    color: #5f5757
+    border-bottom: 1px solid #686161
+
+  &__detail-title
+    color: #bb3c3c
+
+  &__puntuation
+    position: absolute
+    top: 0
+    right: 0
+    font-size: 2rem
+    padding: 1rem
+    margin: 0
+    background-color: #11a583d6
+    color: #ffffff
+    font-weight: 700
+
+  &__img
+    width: 100%
+    height: 270px
+    object-fit: cover
+
+  &__columns-container
+    display: flex
+    justify-content: space-evenly
+    margin-left: 1.5rem
+
+  &__column-container
+    width: 33.33%
+    padding-right: 2rem
+
+  &__featured
+
+    & >p
+      margin: 0
+
+  &__button
+    display: flex
+    justify-content: center
+    align-items: center
+    text-decoration-line: none
+    margin-bottom: 4%
+    margin-top: 1%
+
+.go-back__button:hover
+  color: #ffa250fa
+
+.fa-arrow-left
+  margin-right: 1rem
+  text-decoration: none
+  font-size: 1.5rem
+  color: white
+
+.fa-arrow-left:hover
+  color: #ffa250fa
+
+.fa-arrow-left:before
+  margin-right: 1rem
+
+.modificate
+  color: #5f5757
+
+@media only screen and (min-width: 576px)
+  .detail
+    &__main-container
+      max-width: 80%
+      font-size: .9rem
+
+    &__title
+      font-size: 1.8rem
+
+    &__detail-title
+      font-size: 1.1rem
+
+    &__img
+      height: 300px
+
+    &__favorite
+      font-size: 2.4rem
+
+@media only screen and (min-width: 768px)
+  .detail
+    &__main-container
+      max-width: 70%
+      font-size: .9rem
+
+    &__title
+      font-size: 2rem
+
+    &__detail-title
+      font-size: 1.1rem
+
+    &__img
+      height: 320px
+
+    &__favorite
+      font-size: 2.8rem
+
+
+@media only screen and (min-width: 1200px)
+  .detail
+    &__main-container
+      max-width: 60%
+      font-size: .9rem
+
+    &__columns-container
+      font-size: 1.2rem
+
+    &__title
+      font-size: 2rem
+
+    &__detail-title
+      font-size: 1.5rem
+
+    &__img
+      height: 370px
+
+    &__favorite
+      font-size: 3.2rem
+
+

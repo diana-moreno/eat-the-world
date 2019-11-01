@@ -1,0 +1,30 @@
+.results
+    margin: 0
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    padding: 0
+    list-style: none
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
+    &__item
+        border-radius: 1rem
+        margin: 0.3rem 0
+        width: 32rem
+
+.favorites-title
+    color: #5f5757
+    font-size: 1.7rem
+    text-align: center
+
+@media only screen and (min-width: 576px)
+    .results
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        padding: 1rem
+
+        &__item
+            border-radius: 1rem
+            margin: 1rem
+            width: 32rem

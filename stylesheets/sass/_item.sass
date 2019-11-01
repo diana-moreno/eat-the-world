@@ -1,0 +1,106 @@
+.item
+    box-sizing: border-box
+    display: flex
+    flex-direction: row
+    background-color: whitesmoke
+    text-decoration: none
+    cursor: pointer
+    padding: .5rem
+    position: relative
+
+    &__image
+        display: block
+        border-radius: .2rem
+        margin: .1rem .1rem .1rem .1rem
+        width: 6rem
+        height: 7rem
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
+    &__contdata
+        padding-left: .5rem
+        display: flex
+        flex-direction: column
+        justify-content: space-evenly
+
+    &__contdata-title
+        color: #bb3c3c
+        margin: 0.5rem 0
+        font-size: 1.1rem
+
+    &__contdata-category
+        color: black
+        margin: 0
+
+    &__contdata-zone
+        color: black
+        margin: 0
+        font-size: 0.9rem
+
+    &__contdata-address
+        color: black
+        margin: 0.3rem 0.2rem
+        font-size: 0.9rem
+
+    &__contvotes-vote
+        position: absolute
+        top: 0
+        right: 0
+        font-size: 1rem
+        padding: 0.3rem
+        margin: 0
+        background-color: #11a583d6
+        color: #ffffff
+        font-weight: 700
+
+    &__contvotes-numvotes
+        font-size: .8rem
+        margin-left: 2rem
+        text-align: center
+        margin-top: 3rem
+
+    &__favorite
+        position: absolute
+        color: #bb3c3c
+        font-size: 1.4rem
+        right: 2.3rem
+        top: 0.2rem
+
+@media only screen and (min-width: 576px)
+    .item
+        height: 12rem
+
+        &__contdata-category
+            margin: unset
+            font-size: 0.9rem
+
+        &__contdata-title
+            margin: unset
+
+        &__contdata-zone
+            margin: unset
+            font-size: 1rem
+
+        &__contdata-address
+            margin: unset
+            font-size: 1rem
+
+        &__contvotes-vote
+            font-size: 2rem
+
+        &__contdata-title
+            font-size: 1.5rem
+
+        &__contvotes-vote
+            font-size: 1.5rem
+
+        &__image
+            display: block
+            border-radius: .2rem
+            margin-right: 0.5rem
+            width: 12rem
+            height: 100%
+
+        &__favorite
+            font-size: 1.7rem
+            right: 3rem
+            top: 0.3rem

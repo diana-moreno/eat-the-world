@@ -1,0 +1,129 @@
+.login
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    height: 100vh
+    text-align-last: center
+    background: url('../../images/40312.jpg')
+    background-position: center
+    background-size: cover
+
+.login-register
+    letter-spacing: .03rem
+    text-align: center
+    margin-top: 3%
+    color: white
+    font-size: 1.3rem
+
+.login-form
+    width: 68%
+    border: 3px solid white
+    padding: 2rem
+    border-radius: .8rem
+    background-color: #482d1c6d
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    &__email
+        font-size: 1rem
+        padding: 1%
+        width: 80%
+        max-width: 350px
+        border-radius: 6px
+        border-style: none
+        background: url("https://cdn5.dibujos.net/dibujos/pintar/sobre_2.png") no-repeat scroll 5px 5px
+        background-color: #ffffff
+        background-size: 2rem
+        padding-left: 30px
+        background-position: left
+
+    &__password
+        font-size: 1rem
+        padding: 1%
+        width: 80%
+        max-width: 350px
+        border-radius: 6px
+        border-style: none
+        background: url("http://simpleicon.com/wp-content/uploads/key-4.png") no-repeat scroll 6px 6px
+        background-color: #ffffff
+        background-size: 1.5rem
+        padding-left: 30px
+        background-position: left
+
+    &__title
+        text-align: center
+        margin-top: 0
+        letter-spacing: .4rem
+        color: white
+        font-size: 2rem
+        margin-bottom: 1%
+
+    &__petition
+        letter-spacing: .02rem
+        color: white
+        font-size: 1.2rem
+
+    &__submit
+        margin-top: 3%
+        padding: 1%
+        font-size: 1.3rem
+        border-radius: 6px
+        background-color: transparent
+        border-style: none
+        color: white
+        border: 2px solid white
+        margin: 1rem
+        cursor: pointer
+
+
+.fa-sign-in-alt
+    color: white
+    font-size: 25px
+
+.fa-sign-in-alt:hover
+  color: #ffa250fa
+
+.login-form-submit:hover
+  color: #ffa250fa
+
+
+.link
+    text-decoration: none
+    color: white
+
+.link:hover
+    color: #ffa250fa
+
+.go-back
+
+    &__button
+        display: flex
+        justify-content: center
+        align-items: center
+        text-decoration-line: none
+
+.go-back__button:hover
+    color: #ffa250fa
+
+
+.fa-arrow-left
+    margin-right: 1rem
+    text-decoration: none
+    font-size: 1.5rem
+    color: white
+
+.fa-arrow-left:hover
+    color: #ffa250fa
+
+.fa-arrow-left:before
+    margin-right: 1rem
+
+
+@media only screen and (min-width: 576px)
+    .login-form
+        width: 50%
+
+        &__petition
+            font-size: 20px

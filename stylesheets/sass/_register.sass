@@ -1,0 +1,77 @@
+.register
+    background: url(../../images/40312.jpg)
+    background-position: center
+    background-size: cover
+    height: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+    &__confirmation-greeting
+        font-size: 2.4rem
+
+    &__form
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 68%
+        background: #482d1c6d
+        padding: 2rem
+        margin-bottom: 1rem
+        color: white
+        border-radius: 10px
+        border: 2px solid white
+        justify-content: center
+
+    &__title
+        text-align: center
+        margin-top: 0
+        letter-spacing: 0.4rem
+        color: white
+        font-size: 2rem
+        margin-bottom: 1%
+
+    &__field
+        font-size: 1rem
+        padding: 1%
+        width: 80%
+        max-width: 350px
+        border-radius: 6px
+        border-style: none
+        padding-left: 30px
+
+    &__submit
+        padding: 1%
+        border-radius: 6px
+        background-color: transparent
+        border-style: none
+        font-size: 1.3rem
+        color: white
+        border: 2px solid white
+        margin: 1rem
+        cursor: pointer
+    &__preferences
+        margin-bottom: 10%
+
+    &__check
+        padding: 10px
+        transform: scale(1.9)
+    &__checktext
+        font-size: 27px
+        margin-left: 3%
+
+.register__submit:hover
+    color: #ffa250fa
+    border: 2px solid #ffa250fa
+
+@media only screen and (min-width: 576px)
+    .register
+        &__check
+            padding: 10px
+            transform: scale(1.1)
+        &__checktext
+            font-size: 24px
+            margin-left: 3%
+        &__form
+          width: 50%

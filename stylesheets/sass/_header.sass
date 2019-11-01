@@ -1,0 +1,134 @@
+.header
+  font-family: 'Sorts Mill Goudy', serif
+  padding: .8rem
+  background: url('../../images/40312.jpg')
+  background-position: center
+  background-size: cover
+
+  &__options
+    text-align: right
+    margin-top: .4rem
+
+    &--greeting
+      font-family: 'Sorts Mill Goudy', serif
+      color: white
+      font-size: 1.3rem
+
+  &__options-login
+    font-family: 'Sorts Mill Goudy', serif
+    text-decoration: none
+    color: white
+    padding: .5rem
+    font-size: 1.5rem
+
+  &__options-login:hover
+    color: #ffa250fa
+
+  &__options-register
+    font-family: 'Sorts Mill Goudy', serif
+    text-decoration: none
+    color: white
+    border: white solid .2rem
+    padding: .5rem
+    border-radius: .3rem
+    font-size: 1.5rem
+
+  &__options-register:hover
+    color: #ffa250fa
+    border-color: #ffa250fa
+
+  &__title
+    text-align: center
+    margin-top: 1rem
+    color: white
+    letter-spacing: .8rem
+    font-size: 2.5rem
+    text-shadow: 0.1em 0.1em 0.2em black
+
+  &__slogan
+    font-size: 1.8rem
+    text-align: center
+    color: white
+    text-shadow: 0.1em 0.1em 0.2em black
+
+  &__form
+    margin: 2rem 0 1rem 0
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+  &__form-search
+    font-size: 1rem
+    padding: 0.5rem
+    width: 16rem
+    border-radius: 6px
+    border-style: none
+    margin: 0 1rem
+    margin-bottom: 0.7rem
+
+  &__form-button
+    border-style: none
+    margin-left: 1rem
+    cursor: pointer
+    background-color: transparent
+
+  &--landing
+    display: flex
+    flex-direction: column
+    justify-content: center
+    height: 100vh
+    padding: 0
+
+  &__options--landing
+    position: absolute
+    top: 2rem
+    right: 02rem
+
+  &__title--landing
+    font-size: 3.5rem
+
+@media only screen and (min-width: 576px)
+
+  .header
+    &__form
+      flex-direction: row
+
+    &__form-search
+      margin-bottom: unset
+      width: 20rem
+      padding: 0.7rem
+
+    &--landing
+      display: flex
+      flex-direction: column
+      justify-content: center
+      height: 100vh
+      padding: 0
+
+    &__options--landing
+      position: absolute
+      top: 2rem
+      right: 02rem
+
+    &__title--landing
+      font-size: 4.5rem
+
+
+.fa-utensils
+  font-size: 1.8rem
+  color: white
+  text-shadow: 0.1em 0.1em 0.2em black
+
+.fa-utensils:hover
+  color: #ffa250fa
+
+.errorEmptyField::placeholder
+  color: red
+
+.errorEmptyField
+  border: 2px solid red
+
+
+
+
