@@ -89,6 +89,27 @@ npm start
    │   Copied local address to clipboard!              │
 ```
 
+## Features
+
+- The user can search restaurants by introducing a city and/or a key-word like cuisine type or restaurant name, no matter if it's logged or not.
+- When click in a restaurant, it's possible to see its detail.
+- The user can create a new account in the Register secction.
+- Once registered, the user is redirect automatically to login.
+- Once logged, the user has the option to mark and dismark restaurants as favorites.
+- There's a favorites section to view the favorites collection.
+- The user can login and logout from every place in the website.
+- When a login is made, the website remembers the last place where the user was and return to it.
+- When a logout is made, the website forgets every data en come back to landing.
+
+## What I learned
+
+- How to develop a project from 0 in a 3 members workteam in a week.
+- How to join code with Git branches and Pull Requests.
+- Create a timer in React.
+- Create different features for a logged and non-logged users.
+- Documentate a project with UML.
+- How to access to a blocked API from other country throught a VPN.
+
 ## Functional Description
 
 The app has been developed with React following the separate concepts architecture and introducing ES6 elements.
