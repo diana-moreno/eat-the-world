@@ -54,7 +54,7 @@ There are many free VPN available for mobile and PC, but we recommend to install
 
 Once installed the VPN, the project can be opened here https://diana-moreno.github.io/eat-the-world/.
 
-Otherside, to run the game in local, I have included Serve, a local server from an NPM library.
+Otherside, to run it in local, I have included Serve, a local server from an NPM library.
 
 - Install Node.js at the terminal if you haven't yet (https://nodejs.org/es/). Commands for Ubuntu:
 
