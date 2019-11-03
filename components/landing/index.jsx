@@ -27,7 +27,7 @@ function Landing({user, validateInputs, onLogin, onRegister, onBack, onFavorites
       </section> }
 
       <h1 className="header__title header__title--landing">Eat The World</h1>
-      <h2 className="header__slogan">One thousand flavours in one search</h2>
+      <h2 className="header__slogan header__slogan--landing">One thousand flavours in one search</h2>
       <form onSubmit={event => {
               event.preventDefault()
               const city = event.target.city.value

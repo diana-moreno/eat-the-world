@@ -27,7 +27,7 @@ function Search( {user, onLogin, onRegister, onBack, onFavorites, validateInputs
         }}>Create an account</a>
       </section> }
 
-      <h1 className="header__title">Eat The World</h1>
+      <h1 className="header__title header__title--search">Eat The World</h1>
       <h2 className="header__slogan">One thousand flavours in one search</h2>
       <form onSubmit={event => {
         event.preventDefault()

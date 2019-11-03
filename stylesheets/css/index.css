@@ -28,6 +28,7 @@ body {
 .header__options {
   text-align: right;
   margin-top: 0.4rem;
+  text-shadow: 0.1em 0.1em 4px black;
 }
 .header__options--greeting {
   font-family: "Sorts Mill Goudy", serif;
@@ -52,6 +53,7 @@ body {
   padding: 0.5rem;
   border-radius: 0.3rem;
   font-size: 1.5rem;
+  box-shadow: 0em 0em 11px #554d4d;
 }
 .header__options-register:hover {
   color: #ffa250fa;
@@ -59,17 +61,25 @@ body {
 }
 .header__title {
   text-align: center;
-  margin-top: 1rem;
   color: white;
   letter-spacing: 0.8rem;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   text-shadow: 0.1em 0.1em 0.2em black;
+  margin-top: 6rem;
+  margin-bottom: 0;
+}
+.header__title--search {
+  margin-top: 1rem;
 }
 .header__slogan {
   font-size: 1.8rem;
   text-align: center;
   color: white;
   text-shadow: 0.1em 0.1em 0.2em black;
+}
+.header__slogan--landing {
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
 .header__form {
   margin: 2rem 0 1rem 0;
@@ -132,6 +142,15 @@ body {
   }
   .header__title--landing {
     font-size: 4.5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .header__title--search {
+    margin-top: 1rem;
+  }
+  .header__slogan--landing {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
   }
 }
 .fa-utensils {

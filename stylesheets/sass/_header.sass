@@ -8,6 +8,7 @@
   &__options
     text-align: right
     margin-top: .4rem
+    text-shadow: 0.1em 0.1em 4px black
 
     &--greeting
       font-family: 'Sorts Mill Goudy', serif
@@ -32,6 +33,7 @@
     padding: .5rem
     border-radius: .3rem
     font-size: 1.5rem
+    box-shadow: 0em 0em 11px #554d4d
 
   &__options-register:hover
     color: #ffa250fa
@@ -39,17 +41,25 @@
 
   &__title
     text-align: center
-    margin-top: 1rem
     color: white
     letter-spacing: .8rem
-    font-size: 2.5rem
+    font-size: 3.5rem
     text-shadow: 0.1em 0.1em 0.2em black
+    margin-top: 6rem
+    margin-bottom: 0
+
+    &--search
+      margin-top: 1rem
 
   &__slogan
     font-size: 1.8rem
     text-align: center
     color: white
     text-shadow: 0.1em 0.1em 0.2em black
+
+    &--landing
+      font-size: 1.5rem
+      margin-bottom: 0
 
   &__form
     margin: 2rem 0 1rem 0
@@ -111,8 +121,19 @@
       top: 2rem
       right: 02rem
 
-    &__title--landing
-      font-size: 4.5rem
+    &__title
+      &--landing
+        font-size: 4.5rem
+        margin-top: 1rem
+        margin-bottom: 3rem
+
+      &--search
+        margin-top: 1rem
+
+    &__slogan
+      &--landing
+        font-size: 1.8rem
+        margin-bottom: 1.5rem
 
 
 .fa-utensils
