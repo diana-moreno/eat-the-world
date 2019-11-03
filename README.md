@@ -17,6 +17,43 @@ The app brings information about restaurants around the world when the user spec
 The user can also register, acces to his account and select favourite restaurants that the app will save into 'Favourites' section.
 It's possible to login and logout everywhere in the website, respecting the current view to return to.
 
+Those are the countries included in the data base to search restaurants.
+
+- Australia
+- Brasil
+- Canada
+- Chile
+- Czech Republic
+- India
+- Indonesia
+- Ireland
+- Italy
+- Lebanon
+- Malaysia
+- New Zealand
+- Philippines
+- Poland
+- Portugal
+- Qatar
+- Singapore
+- Slovakia
+- South Africa
+- Sri Lanka
+- Turkey
+- UAE
+- United Kingdom
+- United States
+
+## Usage
+
+**IMPORTANT!**
+
+On the second day of being developing the project, Zomato decided to block totally access to his API from Spain, so in order to continue, we were forced to make the calls through a VPN.
+
+There are many free VPN available for mobile and PC, but we recommend to install the chrome extension [Hotspot Shield VPN free](https://chrome.google.com/webstore/detail/hotspot-shield-vpn-free-p/nlbejmccbhkncgokjcmghpfloaajcffj) to open it from a PC.
+
+Once installed the VPN, the project can be opened here https://diana-moreno.github.io/eat-the-world/.
+
 ## Functional Description
 
 The app has been developed with React following the separate concepts architecture and introducing ES6 elements.
