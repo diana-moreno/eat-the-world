@@ -2,7 +2,7 @@
 
 ## Preintroduction
 
-This project is the result of hard teamwork during a week, developed within Skylab.
+This project is the result of hard teamwork during a week, developed within Skylab bootcamp.
 
 Special thanks to my colleagues mentioned at credits in bottom.
 
@@ -53,6 +53,41 @@ On the second day of being developing the project, Zomato decided to block total
 There are many free VPN available for mobile and PC, but we recommend to install the chrome extension [Hotspot Shield VPN free](https://chrome.google.com/webstore/detail/hotspot-shield-vpn-free-p/nlbejmccbhkncgokjcmghpfloaajcffj) to open it from a PC.
 
 Once installed the VPN, the project can be opened here https://diana-moreno.github.io/eat-the-world/.
+
+Otherside, to run the game in local, I have included Serve, a local server from an NPM library.
+
+- Install Node.js at the terminal if you haven't yet (https://nodejs.org/es/). Commands for Ubuntu:
+
+```bash
+sudo apt-get update
+sudo apt-get install nodejs
+```
+- You will need to install the package manager npm:
+
+```bash
+sudo apt-get install npm
+```
+- Clone or download the repository in your computer.
+
+```bash
+git clone https://github.com/diana-moreno/eat-the-world.git`
+```
+- Download the npm competitions in your own repository and start it.
+
+```bash
+npm install serve
+npm start
+```
+- Open the project trought the links are provided by the server.
+
+```
+   │   Serving!                                        │
+   │                                                   │
+   │   - Local:            http://localhost:5000       │
+   │   - On Your Network:  http://192.168.1.174:5000   │
+   │                                                   │
+   │   Copied local address to clipboard!              │
+```
 
 ## Functional Description
 
