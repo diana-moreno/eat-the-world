@@ -109,6 +109,7 @@ npm start
 - Create different features for a logged and non-logged users.
 - Documentate a project with UML.
 - How to access to a blocked API from other country throught a VPN.
+- Separate the logic in files.
 
 ## Functional Description
 
